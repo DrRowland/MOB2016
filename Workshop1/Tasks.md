@@ -1,6 +1,14 @@
-# IBM Bluemix Challenge, 2015
+## Workshop 1 - Enviroment and Language Familiarisation.
 
-## Question 1: Factorials
+We will be using a Bash shell on a Linux server and Python to develop our apps. This module is a course on neither. Many of you will already by familiar with Bash and/or Python, if not, today is your opportunity to catch up. 
+
+If you are not familiar with Bash, this is a goog tutorial: http://mywiki.wooledge.org/BashGuide
+
+If you are not familiar with Python, this is a good tutorial: http://pythonprogramminglanguage.com/
+
+Spend this workshop becoming familiar with these two languages using the above tutorials. The following tasks can both be completed in Bash and Python. Pick the language you are least familiar with and develop solutions for both using the above tutorials (and of course, skillful googling) to teach yourself the langage.
+
+## Task 1: Factorials
 
 The factorial of a number is a multiple of all integers between 1 and that number inclusive. For example, the factorial of 5 (expressed as 5!) would be 5x4x3x2x1 = 120.
 
@@ -24,7 +32,7 @@ Sample output
     24
     6
 
-## Question 2: Change
+## Task 2: Change
 
 You are writing a software module for a ticket machine that will be based at a railway station. Your module controls how the ticket machine gives change to customers who pay by cash.
 
@@ -61,77 +69,5 @@ Sample output
     50x1,5x1,2x1
     20x1,10x1,5x1,1x1
 
-## Question 3: Simultaneous equations
-
-Given a pair of simultaneous equations, it is possible to deduce the values of the variables contained therein. Imagine, for instance, we have the following pair of simultaneous equations:
-
-    4x+3y=24 (call this equation [1])
-    5x+y=19 (call this equation [2])
-
-Using simple GCSE-level mathematics, we can calculate the value of x thus:
-
-    Multiply [2] by 3 throughout: 5x+y=19 becomes 15x+3y=57
-    Subtract 15x from both sides: 15x+3y=57 becomes 3y=57-15x
-    Subtract 4x from both sides of [1]: 4x+3y=24 becomes 3y=24-4x
-    Because 3y=57-15x (from [2]) and 3y=24-4x (from [1]) we can say 57-15x = 24-4x
-    Subtract 24 from both sides: 33-15x = -4x
-    Now add 15x to both sides: 33=11x
-    Finally, divide both sides by 11: 3=x (or x=3).
-    Now we know that x=3, we can substitute its value into one of the equations. 4x+3y=24 [1] becomes 4x3+3y=24, or 12+3y=24
-    Subtract 12 from both sides: 3y=12
-    Divide both sides by 3: y=4
-    We have therefore deduced that x=3 and y=4.
-
-Write a program that takes a series of pairs of simultaneous equations, and computes x and y in each case. Each equation takes the form:
-
-    NxSMy=R
-
-... where:
-
-    N and M are either blank or an integer between 1 and 100 inclusive
-    S is a sign, either + or -
-    R is an integer between -5000 and 5000 inclusive
-
-Each equation in a pair will appear on a separate line, and will always contain some multiple of x and y. Each pair will be followed by a single # mark on a line by itself. The end of the input stream will be denoted by the '##' mark on a line by itself. The elements of any equation will be separated by zero or more elements of whitespace (either spaces or tab characters).
-
-Your program should write a solution for each pair of equations, each on a line by itself and each of the form:
-
-    x=P and y=Q
-
-... where P and Q are integers between -40 and 40 inclusive. You may assume that every equation set is solvable, and that there is only one possible value for each of x and y for any pair of equations.
-Sample Input
-
-    4x+3y=24
-    5 x + y =19
-    #
-    2x+y=3
-    3x-y=2
-    #
-    ##
-
-Sample Output
-
-    x=3 y=4
-    x=1 y=1
-
-For all three questions...
-
-Each program should be implemented in Bluemix thus:
-
-The judges should be able to access the program to run it via the URLs provided to us in your entry submission.
-
-When the judge visits a program solution he or she should be presented with an input screen containing only the following:
-
-    A heading, of the form "Question <x> Data Input" where <x> is the question number.
-    A multi-line text box into which the judge can paste the secret test data.
-    A button labelled "Run" which, when clicked, will run the program.
-
-Once the program has run it should present the output of the program on an output screen containing only the following:
-
-    A heading, of the form "Question <x> Results" where x is the question number.
-    The program output, in the format specified in the question, and in a fixed-width font (e.g. Courier).
-    The output screen must contain no output except as specified (i.e. no debug statements, etc).
-    The solution for each question must be implemented as a single code file - no vast number of code libraries and the like that are all cross-referenced.
-
-Good Luck!
+### (Source IBM Bluemix Challenge, 2015)
 
