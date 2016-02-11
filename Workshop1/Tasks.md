@@ -2,11 +2,11 @@
 
 We will be using a Bash shell on a Linux server and Python to develop our apps. This module is a course on neither. Many of you will already by familiar with Bash and/or Python, if not, today is your opportunity to catch up. 
 
-If you are not familiar with Bash, this is a goog tutorial: http://mywiki.wooledge.org/BashGuide
+If you are not familiar with Bash, this is a good tutorial: http://mywiki.wooledge.org/BashGuide
 
 If you are not familiar with Python, this is a good tutorial: http://pythonprogramminglanguage.com/
 
-Spend this workshop becoming familiar with these two languages using the above tutorials. The following tasks can both be completed in Bash and Python. Pick the language you are least familiar with and develop solutions for both using the above tutorials (and of course, skillful googling) to teach yourself the langage.
+Spend this workshop becoming familiar with these two languages using the above tutorials. The following tasks can both be completed in Bash and Python. Pick the language you are least familiar with and develop solutions for both using the above tutorials (and of course, skilful googling) to teach yourself the language.
 
 ## Task 1: Factorials
 
