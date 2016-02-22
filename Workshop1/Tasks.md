@@ -1,6 +1,6 @@
 ## Workshop 1 - Environment and Language Familiarisation.
 
-We will be using a Bash shell on a Linux server and Python to develop our apps. This module is a course on neither. Many of you will already by familiar with Bash and/or Python, if not, today is your opportunity to catch up. 
+We will be using a Bash shell on a Linux server and Python to develop our apps. This module is a course on neither. Many of you will already by familiar with Bash and/or Python, if not, this week is your opportunity to catch up. 
 
 If you are not familiar with Bash, this is a good tutorial: http://mywiki.wooledge.org/BashGuide
 
